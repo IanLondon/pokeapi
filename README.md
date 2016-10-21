@@ -11,6 +11,6 @@ You can get Pokémon info via Pokémon name or ID number. Try `sbt run pikachu` 
 * Get rid of `println`
 
 # Details:
-Gets data from [https://pokeapi.co/](Pokéapi). Uses [http://argonaut.io](Argonaut) to parse JSON, and [https://github.com/scalaj/scalaj-http](scalaj) for HTTP requests.
+Gets data from [Pokéapi](https://pokeapi.co/). Uses [Argonaut](http://argonaut.io/) to parse JSON, and [scalaj](https://github.com/scalaj/scalaj-http) for HTTP requests.
 
 Run the tests with `sbt test`
