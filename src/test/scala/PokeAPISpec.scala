@@ -1,4 +1,4 @@
-package com.github.ianlondon.pokeapi
+package pokeapi
 
 import org.scalatest.{FlatSpec, Matchers}
 import argonaut._, Argonaut._

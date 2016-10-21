@@ -1,0 +1,9 @@
+[app]
+  version: 0.1.0
+  org: com.github.ianlondon
+  name: pokeapi
+  class: pokeapi.PokeAPI
+[scala]
+  version: 2.11.8
+[repositories]
+  local

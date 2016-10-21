@@ -1,4 +1,4 @@
-package com.github.ianlondon.pokeapi
+package pokeapi
 
 import argonaut._, Argonaut._
 
