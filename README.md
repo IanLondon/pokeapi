@@ -5,10 +5,10 @@ Not so much a wrapper as a Pokédex that uses Pokéapi.
 You can get Pokémon info via Pokémon name or ID number. Try `sbt "run pikachu"` or `sbt "run 151"` to show some Pokédex information.
 
 ```
-    Pikachu: #25
-    ==============================
-    Height: 4
-    Weight: 60
+Pikachu: #25
+==============================
+Height: 4
+Weight: 60
 ```
 
 # TODO:

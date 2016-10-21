@@ -3,12 +3,10 @@ package com.github.ianlondon.pokeapi
 import argonaut._, Argonaut._
 
 case class Pokemon(name: String, id: Int, height: Int, weight: Int) {
-  override def toString: String = s"""
-    ${name.capitalize}: #$id
-    ==============================
-    Height: $height
-    Weight: $weight
-    """
+  override def toString: String = s"""${name.capitalize}: #$id
+    |==============================
+    |Height: $height
+    |Weight: $weight""".stripMargin
 }
 
 
