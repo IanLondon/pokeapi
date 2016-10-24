@@ -2,7 +2,12 @@
 
 Not so much a wrapper as a Pokédex that uses Pokéapi.
 
-You can get Pokémon info via Pokémon name or ID number. Try `sbt "run pikachu"` or `sbt "run 151"` to show some Pokédex information.
+# Install with conscript
+
+Install Conscript following the instructions [here](http://www.foundweekends.org/conscript/setup.html) then install pokeapi with `cs --no-exec IanLondon/pokeapi`.
+
+
+You can get Pokémon info via Pokémon name or ID number. Try `pokeapi pikachu` or `pokeapi 151` to show some Pokédex information.
 
 ```
 Pikachu: #25
@@ -12,7 +17,6 @@ Weight: 60
 ```
 
 # TODO:
-* Make installable command-line tool
 * Display more info about a Pokémon
 * Use Either instead of Option for more detailed failure messages
 * Get rid of `println`
